@@ -6,12 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/GhostStore.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Supermarket_strip.unity
-    guid: fabcf0456242d4c93839c55475de602d
+    path: Assets/ModernSupermarket/Scenes/GameStartingMenu.unity
+    guid: 65217711a2aba4579b9f3c42c54430e1
+  - enabled: 1
+    path: Assets/ModernSupermarket/Scenes/Scene_Supermarket/Supermarket.unity
+    guid: 95cb9ac7a1494454abac29b7879ed266
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b1fe4e757afd044caa86858f29abbcb8, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 1d5e72f935080453e9f89ea91f7d99ac, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a5dc6443c3b444c1091411c43c96a4ab, type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: e1ca7c0d142b149b793d77fa82755549, type: 2}
