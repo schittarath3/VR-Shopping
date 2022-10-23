@@ -12,14 +12,14 @@ public class ItemCollect : MonoBehaviour
         if(collected == false)
         {
             collected = true;
-            transform.localScale += new Vector3(3, 3, 3);
+            this.transform.localScale += new Vector3(3, 3, 3);
             //Call inventory class to add to it
             //send tag
         }
         else if(collected == true)
         {
             collected = false;
-            transform.localScale -= new Vector3(3, 3, 3);
+            this.transform.localScale -= new Vector3(3, 3, 3);
             //
         }
     }
