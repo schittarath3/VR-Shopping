@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mango
+  - chocolate
+  - jam
+  - apple
+  - banana
   layers:
   - Default
   - TransparentFX
