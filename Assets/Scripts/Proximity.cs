@@ -10,7 +10,7 @@ using UnityEngine;
 public class Proximity : MonoBehaviour
 {
     // Adaptive Fields
-    [SerializeField] public Transform self = this.transform.position;
+    [SerializeField] public Transform self;
     [SerializeField] public Transform object_to_detect = null;
     [SerializeField] public float detect_distance = 5.0f;
 
@@ -19,13 +19,14 @@ public class Proximity : MonoBehaviour
     // Logic:
     private void Start()
     {
-        curr_distance = self.position - object_to_detect.position;
+        self = this.transform;
+        distance = self.position - object_to_detect.position;
     }
 
     private void Update()
     {
-        curr_distance = self.position - object_to_detect.position;
-        if (curr_distance.magnitude <= detect_distance)
+        distance = self.position - object_to_detect.position;
+        if (distance.magnitude <= detect_distance)
         {
             // implement checkout UI screen pop-up
         }
