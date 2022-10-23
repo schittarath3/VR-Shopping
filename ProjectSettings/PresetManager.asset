@@ -38,10 +38,10 @@ PresetManager:
       m_ManagedTypeFallback: 
     second:
     - m_Preset: {fileID: 2655988077585873504, guid: fdc4f514b7b1e9c4eb39713ad9dd4eba, type: 2}
-      m_Filter: 
+      m_Filter: rightgrab
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: e2e08fffc3edfbb47a429bae0c5a6343, type: 2}
-      m_Filter: 
+      m_Filter: leftgrab
       m_Disabled: 0
   - first:
       m_NativeTypeID: 114
