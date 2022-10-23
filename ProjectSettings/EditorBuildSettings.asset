@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ModernSupermarket/Scenes/Scene_Supermarket/Supermarket.unity
     guid: 95cb9ac7a1494454abac29b7879ed266
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Supermarket_strip.unity
     guid: fabcf0456242d4c93839c55475de602d
+  - enabled: 1
+    path: Assets/Scenes/Supermarket_strip_copy.unity
+    guid: 398c3c834c61c40ff9c21945e1244b30
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b1fe4e757afd044caa86858f29abbcb8, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 1d5e72f935080453e9f89ea91f7d99ac, type: 2}

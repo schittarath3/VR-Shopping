@@ -9,8 +9,28 @@ public class ItemCollect : MonoBehaviour
 
     public void Collect()
     {
-        INV.Add(gameObject.tag);
-        gameObject.SetActive(false);
+        //INV.Add(gameObject.tag);
+
+
+        switch(gameObject.name)
+        {
+            case "mango":
+                break;
+            case "apple":
+                break;
+            case "chocolate":
+                break;
+            case "jam":
+                break;
+            case "banana":
+                break;
+            default:
+                break;
+        }
+
+        //gameObject.SetActive(false);
+
+        Destroy(this.gameObject);
 
         ////toggle in and out of cart
         //if (collected == false)

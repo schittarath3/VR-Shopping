@@ -37,6 +37,6 @@ public class Inventory : MonoBehaviour
             temp += item.Key + ": " + item.Value + "\n";
         }
         inventory_text.text = temp;
-        Console.Write("YOU ADDED SOMETHING TO YOUR CART");
+        Debug.Log("YOU ADDED SOMETHING TO YOUR CART");
     }
 }
