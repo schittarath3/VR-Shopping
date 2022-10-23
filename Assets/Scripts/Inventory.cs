@@ -12,10 +12,6 @@ public class Inventory : MonoBehaviour
     {
         inventory = new SortedDictionary<string, int>();
         inventory_text.text = "You have nothing in your cart";
-        inventory["apple"] = 1;
-        inventory["zapple"] = 1;
-        inventory["banana"] = 1;
-        Rewrite();
     }
     
     private void Update() {}
@@ -41,5 +37,6 @@ public class Inventory : MonoBehaviour
             temp += item.Key + ": " + item.Value + "\n";
         }
         inventory_text.text = temp;
+        Console.Write("YOU ADDED SOMETHING TO YOUR CART");
     }
 }
