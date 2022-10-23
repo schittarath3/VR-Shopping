@@ -17,15 +17,6 @@ By trading an app UI for virtual reality, we aim to bring a convenient way to sh
 ## How we built it 🛠
 We used Unity to build a prototype grocery store for navigation and to integrate VR 🥽 for user interactions with the grocery store. We also used Figma for creating mockups on this DevPost.
 
-## Challenges we ran into ⚔️
-*Setting up github
-*Create github branch
-*Finding models
-*Setting up VR on Unity is difficult due to different laptop OS’s. The VR headset would work on some but not others.
-
-## Accomplishments 🏆
-Setting up the game was itself an accomplishment
-
 ## What’s Next ⏭
 We hope to also extend the simulator to incorporate challenges. Fastest checkout, memorization challenges, etc. Maybe even an esports league for grocery shopping. The possibilities are endless!
 
