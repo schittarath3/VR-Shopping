@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class ItemCollect : MonoBehaviour
 {
-    private bool collected = false;
+    //private bool collected = false;
+    private Inventory INV = new Inventory();
 
     public void Collect()
     {
-        //toggle in and out of cart
-        if(collected == false)
-        {
-            collected = true;
-            this.transform.localScale += new Vector3(3, 3, 3);
-            //Call inventory class to add to it
-            //send tag
-        }
-        else if(collected == true)
-        {
-            collected = false;
-            this.transform.localScale -= new Vector3(3, 3, 3);
-            //
-        }
+        INV.Add(gameObject.tag);
+        gameObject.SetActive(false);
+
+        ////toggle in and out of cart
+        //if (collected == false)
+        //{
+        //  collected = true;
+        //  transform.localScale += new Vector3(3, 3, 3);
+        //}
+        //else if (collected == true)
+        //{
+        //    collected = false;
+        //    transform.localScale -= new Vector3(3, 3, 3)
+        //}
     }
 }
